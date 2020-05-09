@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:  #121212;
+    text-align: center;
+
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 26px;
+    text-decoration: none;
+    
+  }
+
+  
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+
+body
+{
+    background-color: #121212;
+     background-image: url(../img/blendermenu.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  width:100%;
+    
+}
+
+#logo {
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    background-image: url(../img/blender.png);
+    background-repeat: no-repeat;
+    box-shadow: 10px 5px 15px black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+h2 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+
+
+}
+
+#content {
+    font-family: 'Assistant', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-top: 10%;
+    float: right;
+    float:left;
+   
+  text-align: center;
+  
+
+}
+
+.dot {
+    margin-top: 100px;
+    height:50px;
+    width:50px;
+    background-color: gray;
+    display: inline-block;
+    
+    background-size: cover;
+    border-radius:50% 50% 50% 50%;
+    
+    
+  }
+
